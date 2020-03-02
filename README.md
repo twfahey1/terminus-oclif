@@ -29,8 +29,59 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`terminus Auth:Login [FILE]`](#terminus-authlogin-file)
+* [`terminus Auth:Logout [FILE]`](#terminus-authlogout-file)
+* [`terminus Auth:Whoami [FILE]`](#terminus-authwhoami-file)
 * [`terminus hello [FILE]`](#terminus-hello-file)
 * [`terminus help [COMMAND]`](#terminus-help-command)
+
+## `terminus Auth:Login [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ terminus Auth:Login [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/Auth/Login.ts](https://github.com/twfahey1/terminus-oclif/blob/v0.0.0/src/commands/Auth/Login.ts)_
+
+## `terminus Auth:Logout [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ terminus Auth:Logout [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/Auth/Logout.ts](https://github.com/twfahey1/terminus-oclif/blob/v0.0.0/src/commands/Auth/Logout.ts)_
+
+## `terminus Auth:Whoami [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ terminus Auth:Whoami [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/Auth/Whoami.ts](https://github.com/twfahey1/terminus-oclif/blob/v0.0.0/src/commands/Auth/Whoami.ts)_
 
 ## `terminus hello [FILE]`
 
